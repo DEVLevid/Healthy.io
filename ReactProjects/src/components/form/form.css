@@ -1,0 +1,31 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+}
+
+form {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  padding: 32px;
+  border-radius: var(--border-radius-default);
+  height: 400px;
+  width: 600px;
+}
+
+form .Title h2{
+  font-size: 32px;
+  font-weight: 600;
+  text-align: start;
+}
+
+form .nameContainer {
+  width: 100%;
+  display: flex;
+  gap: 12px;
+  margin-bottom: 24px;
+  padding-top: 2rem;
+}
+form Button {
+  width: 100%;
+  margin-top: 24px;
+}
