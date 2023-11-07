@@ -1,0 +1,14 @@
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputContainer .label {
+    width: 100%;
+  font-size: 16px;
+  margin-bottom: 8px;
+  text-align: start;
+  font-weight: 500;
+}
